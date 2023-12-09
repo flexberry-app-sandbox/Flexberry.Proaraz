@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Proaraz",
+  "applicationTitle": "Proaraz",
+  "items": [
+    {
+      "link": null,
+      "menuName": "proaraz",
+      "caption": "Proaraz",
+      "title": "Proaraz",
+      "children": [
+        {
+          "link": "i-i-s-proaraz-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proaraz-форма-рег-карт-l",
+          "menuName": null,
+          "caption": "Форма рег карт",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proaraz-форма-рег-входа-l",
+          "menuName": null,
+          "caption": "Форма рег входа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proaraz-карты-l",
+          "menuName": null,
+          "caption": "Карты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proaraz-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proaraz-гость-l",
+          "menuName": null,
+          "caption": "Гость",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proaraz-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

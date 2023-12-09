@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proaraz-сотрудник-e",
+  "editForm": "i-i-s-proaraz-сотрудник-e",
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISProarazСотрудникL",
+  "className": "СотрудникL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proaraz-сотрудник",
+      "modelProjection": "СотрудникL"
+    }
+  ]
+}

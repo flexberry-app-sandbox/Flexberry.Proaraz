@@ -1,0 +1,120 @@
+﻿{
+  "name": "IISProarazФормаРегВхода",
+  "modelName": "i-i-s-proaraz-форма-рег-входа",
+  "className": "ФормаРегВхода",
+  "nameSpace": "IIS.Proaraz",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "комната",
+      "relatedTo": "i-i-s-proaraz-комната",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тЧРегВхода",
+      "relatedTo": "i-i-s-proaraz-т-ч-рег-входа",
+      "inverse": "формаРегВхода"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ФормаРегВходаE",
+      "modelName": "i-i-s-proaraz-форма-рег-входа",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Комната",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Комната",
+          "name": "комната",
+          "relatedTo": "i-i-s-proaraz-комната",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧРегВходаE",
+          "caption": "Т ч рег входа",
+          "name": "тЧРегВхода",
+          "relatedTo": "i-i-s-proaraz-т-ч-рег-входа",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ФормаРегВходаL",
+      "modelName": "i-i-s-proaraz-форма-рег-входа",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Комната",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер",
+          "name": "комната",
+          "relatedTo": "i-i-s-proaraz-комната",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

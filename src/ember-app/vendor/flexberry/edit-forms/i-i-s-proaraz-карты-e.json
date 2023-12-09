@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Карты",
+  "name": "IISProarazКартыE",
+  "className": "КартыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proaraz-карты",
+      "modelProjection": "КартыE"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комната",
+      "projection": "КомнатаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Гость",
+      "projection": "ГостьL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Карты",
+      "projection": "КартыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Форма рег карт",
+  "name": "IISProarazФормаРегКартE",
+  "className": "ФормаРегКартE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proaraz-форма-рег-карт",
+      "modelProjection": "ФормаРегКартE"
+    }
+  ]
+}

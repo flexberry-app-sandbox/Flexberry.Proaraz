@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proaraz-карты-e",
+  "editForm": "i-i-s-proaraz-карты-e",
+  "external": false,
+  "caption": "Карты",
+  "name": "IISProarazКартыL",
+  "className": "КартыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proaraz-карты",
+      "modelProjection": "КартыL"
+    }
+  ]
+}

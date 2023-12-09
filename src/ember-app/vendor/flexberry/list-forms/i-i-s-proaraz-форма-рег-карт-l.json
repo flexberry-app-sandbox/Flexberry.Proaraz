@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proaraz-форма-рег-карт-e",
+  "editForm": "i-i-s-proaraz-форма-рег-карт-e",
+  "external": false,
+  "caption": "Форма рег карт",
+  "name": "IISProarazФормаРегКартL",
+  "className": "ФормаРегКартL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proaraz-форма-рег-карт",
+      "modelProjection": "ФормаРегКартL"
+    }
+  ]
+}

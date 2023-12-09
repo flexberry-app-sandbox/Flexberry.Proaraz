@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Proaraz",
+  "className": "ВидКарты",
+  "enumObjects": {
+    "Универсальная": "",
+    "Гостевая": ""
+  }
+}
